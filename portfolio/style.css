@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+}
+.navbar {
+  background-color: #24263b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nickNameText {
+  color: white;
+  font-size: 20px;
+}
+
+.navbarLinks {
+  display: flex;
+  padding: 0;
+}
+.navbarLinks li {
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  margin: 0px 15px 0px 0px;
+}
