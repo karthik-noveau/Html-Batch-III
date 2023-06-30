@@ -1,6 +1,10 @@
 * {
   margin: 0;
 }
+body {
+  padding-bottom: 200px;
+  font-family: sans-serif;
+}
 .navbar {
   background-color: #24263b;
   width: 100%;
@@ -54,16 +58,15 @@
 }
 
 .skills_title {
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 21px;
   background-color: #24263c;
   color: white;
-  width: 120px;
+  width: 150px;
   text-align: center;
   border-radius: 7px;
-  padding: 5px 0px;
+  padding: 9px 0px;
   margin-left: 15px;
-  margin: 14px 0 15px 15px;
+  margin: 55px 0 40px 15px;
 }
 
 .skillsImageContainer {
@@ -81,11 +84,61 @@
   margin: 10px;
 }
 
-.skillsImageMainContainer{
+.skillsImageMainContainer {
   width: 90%;
 }
-.skillsImage{
+.skillsImage {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.education {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.educationContainer {
+  width: 90%;
+}
+.education table {
+  border-collapse: collapse;
+  margin-left: 60px;
+  border: 1px solid #24263c;
+}
+.education table td {
+  padding: 20px;
+  font-size: 18px;
+}
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.projectsContainer {
+  width: 90%;
+}
+.projectsItems {
+  margin-left: 60px;
+}
+.projectsItemsContainer {
+  margin-bottom: 33px;
+}
+
+.projectsItemsContainer p:nth-of-type(1) {
+  font-size: 20px;
+  font-weight: 500;
+}
+.projectsItemsContainer p:nth-of-type(2) {
+  margin-left: 25px;
+  margin-top: 13px;
+}
+.projectsItemsContainer p:nth-of-type(3) {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 9px;
+}
+.projectsItemsContainer p:nth-of-type(4) {
+  margin-left: 25px;
+  margin-top: 13px;
 }
