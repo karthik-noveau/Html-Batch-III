@@ -123,22 +123,55 @@ body {
 }
 .projectsItemsContainer {
   margin-bottom: 33px;
+  box-shadow: 0 0 18px 0px #cbcbcb;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .projectsItemsContainer p:nth-of-type(1) {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 23px;
+  font-weight: 600;
+  color: #2e343c;
 }
 .projectsItemsContainer p:nth-of-type(2) {
   margin-left: 25px;
   margin-top: 13px;
+  color: #434343;
 }
 .projectsItemsContainer p:nth-of-type(3) {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   margin-top: 9px;
 }
 .projectsItemsContainer p:nth-of-type(4) {
   margin-left: 25px;
   margin-top: 13px;
+  color: #737373;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #24263d;
+}
+.contact .icons{
+
+}
+.contact i{
+
+}
+.contact .address{
+
+}
+.contact .address p:nth-of-type(1){
+
+}
+.contact .address p:nth-of-type(2){
+  
+}
+.contact .address p:nth-of-type(3){
+  
+}
+.contact .address p:nth-of-type(4){
+  
 }
