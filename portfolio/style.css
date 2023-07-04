@@ -2,7 +2,6 @@
   margin: 0;
 }
 body {
-  padding-bottom: 200px;
   font-family: sans-serif;
 }
 .navbar {
@@ -153,25 +152,40 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #24263d;
+  color: white;
+  padding: 50px 0;
 }
-.contact .icons{
+.contact .icons {
+  margin-bottom: 30px;
+}
+.contact i {
+  font-size: 24px;
+  border: 1px solid #cfcfcf;
+  padding: 7px;
+  border-radius: 8px;
+  margin: 0 6px;
+}
+.contact .address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.address p {
+  margin-bottom: 10px;
+}
+.contact .address p:nth-of-type(1) {
+  background-color: white;
+  color: #24263e;
+  padding: 7px 8px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.contact .address p:nth-of-type(2) {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 800;
+}
 
-}
-.contact i{
-
-}
-.contact .address{
-
-}
-.contact .address p:nth-of-type(1){
-
-}
-.contact .address p:nth-of-type(2){
-  
-}
-.contact .address p:nth-of-type(3){
-  
-}
-.contact .address p:nth-of-type(4){
-  
+.address p:nth-of-type(3), .address p:nth-of-type(4) {
+  color: #c4c4c4;
 }
